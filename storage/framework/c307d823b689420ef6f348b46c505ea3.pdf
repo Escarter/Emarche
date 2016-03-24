@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Invoice</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+			body {
+				background: #fff;
+				background-image: none;
+				font-size: 12px;
+			}
+			address{
+				margin-top:15px;
+			}
+			h2 {
+				font-size:28px;
+				color:#cccccc;
+			}
+			.container {
+				padding-top:30px;
+			}
+			.invoice-head td {
+				padding: 0 8px;
+			}
+			.invoice-body{
+				background-color:transparent;
+			}
+			.logo {
+				padding-bottom: 10px;
+			}
+			.table th {
+				vertical-align: bottom;
+				font-weight: bold;
+				padding: 8px;
+				line-height: 20px;
+				text-align: left;
+			}
+			.table td {
+				padding: 8px;
+				line-height: 20px;
+				text-align: left;
+				vertical-align: top;
+				border-top: 1px solid #dddddd;
+			}
+			.well {
+				margin-top: 15px;
+			}
+	</style>
+</head>
+
+<body>
+<div class="container">
+<table style="margin-left: auto; margin-right: auto" width="550">
+	<tr>
+		<td width="160">
+			&nbsp;
+		</td>
+
+		<!-- Organization Name / Image -->
+		<td align="right">
+			<strong>CleBeaInc.com</strong>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td style="font-size:28px;color:#cccccc;">
+				Receipt
+		</td>
+
+		<!-- Organization Name / Date -->
+		<td>
+			<br><br>
+			<strong>To:</strong> brienom@gmail.com
+			<br>
+			<strong>Date:</strong> Mar 3, 2016
+		</td>
+	</tr>
+	<tr valign="top">
+		<!-- Organization Details -->
+		<td style="font-size:9px;">
+			CleBeaInc<br>
+							123 Che Street<br>
+										Bamenda CM, 230<br>
+										<strong>T</strong> 237.679.386.906<br>
+										<a href="www.cleBeaInc.com">www.cleBeaInc.com</a>
+					</td>
+		<td>
+			<!-- Invoice Info -->
+			<p>
+				<strong>Product:</strong> free<br>
+				<strong>Invoice Number:</strong> in_17l1NzJZLIPJPaVzdqc5hKMq<br>
+			</p>
+
+			<!-- Extra / VAT Information -->
+			
+			<br><br>
+
+			<!-- Invoice Table -->
+			<table width="100%" class="table" border="0">
+				<tr>
+					<th align="left">Description</th>
+					<th align="right">Date</th>
+					<th align="right">Amount</th>
+				</tr>
+
+				<!-- Display The Invoice Items -->
+				
+				<!-- Display The Subscriptions -->
+									<tr>
+						<td>Subscription (1)</td>
+						<td>Mar 3, 2016 - Apr 3, 2016</td>
+						<td>$99.00</td>
+					</tr>
+				
+				<!-- Display The Discount -->
+				
+				<!-- Existing Balance -->
+				
+				<!-- Display The Final Total -->
+				<tr style="border-top:2px solid #000;">
+					<td>&nbsp;</td>
+					<td style="text-align: right;"><strong>Total</strong></td>
+					<td><strong>$99.00</strong></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</div>
+</body>
+</html>
